@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite">
+    <listeners>      
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="Registration Test">
+        <classes>
+            <class name="com.samuel.solution.tests.DemoQATest">
+                <methods>
+                    <include name="testRegistrationProcess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Draggable Test">
+        <classes>
+            <class name="com.samuel.solution.tests.DemoQATest">
+                <methods>
+                    <include name="testDraggableFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Droppable Test">
+        <classes>
+            <class name="com.samuel.solution.tests.DemoQATest">
+                <methods>
+                    <include name="testDroppableFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Resizable Test">
+        <classes>
+            <class name="com.samuel.solution.tests.DemoQATest">
+                <methods>
+                    <include name="testResizableFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Selectable Test">
+        <classes>
+            <class name="com.samuel.solution.tests.DemoQATest">
+                <methods>
+                    <include name="testSelectableFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Sortable Test">
+        <classes>
+            <class name="com.samuel.solution.tests.DemoQATest">
+                <methods>
+                    <include name="testSortableFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
