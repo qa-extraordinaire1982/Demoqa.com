@@ -1,0 +1,2 @@
+# Demoqa.com
+Go to http://demoqa.com/ and automate the following:   1. Online registration – Fill the registration form and submit.  2. Interaction – Draggable, Droppable, Resizable, Selectable, Sortable. (perform actions and validate that those happened as expected).  3. Misc stuff – Check text on all tabs from main page.  4. Frames – Click "Open New Separate Window" link and validate text on the new window, get back then to the main window and click on the logo at the top left.
